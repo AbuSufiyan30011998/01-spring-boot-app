@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+
+spring:  datasource:    url: jdbc:mysql://localhost:3306/sbms
+    username: root
+    password: test 
+    
+  jpa:
+    show-sql: true    hibernate:      ddl-auto: update  
