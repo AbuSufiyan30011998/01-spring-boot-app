@@ -6,6 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Application {
 
+
+	public void m1(){
+		System.out.println("m1  ");
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
