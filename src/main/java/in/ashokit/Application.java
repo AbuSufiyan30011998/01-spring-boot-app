@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
 
-	public void m1(){
+	public static void m1(){
 		System.out.println("m1  ");
 	}
 
