@@ -11,7 +11,7 @@ public interface CourseService {
 	
 	public Course getById(Integer cid);
 	
-	List<Course> getAllCourse();
+	public List<Course> getAllCourse();
 	
 	public String deleteCourse(Integer cid);
 
