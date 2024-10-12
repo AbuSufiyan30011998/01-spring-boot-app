@@ -13,6 +13,15 @@ public interface CourseService {
 	
 	public List<Course> getAllCourse();
 
+<<<<<<< .mine
+
+
+
+=======
+
+	public void test();
+	
+>>>>>>> .theirs
 	public String deleteCourse(Integer cid);
 
 }
